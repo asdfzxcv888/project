@@ -1,0 +1,33 @@
+
+
+.form-container{
+display: flex;
+justify-content: center;
+
+}
+form{
+    width:50%;
+    border-style: solid;
+    border-width: 10px;
+}
+  
+.row{
+    margin: 10px;
+}
+.row >input{
+position: absolute;
+left:33%
+}
+
+
+button{
+    background-color: red;
+    color: antiquewhite;
+    width:25%;
+    margin-right: 10%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
